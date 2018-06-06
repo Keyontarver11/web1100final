@@ -1,0 +1,218 @@
+body{
+   
+    margin:0vh;
+    padding:0;
+    background-color: steelblue;
+    background:linear-gradient(steelblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.sidenav{
+    height: 100%;
+    width: 20vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    font-family: 'Abril Fatface', cursive;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size:30px;
+   background-repeat: no-repeat;
+background:linear-gradient(steelblue, white);
+
+
+}
+
+.bgimg{
+    
+        opacity: 0.5;
+         position:fixed;
+       z-index: -2;
+        
+       
+    margin-left:30vw;
+     min-width:58vw,  ;
+     max-width: 58vw;
+     
+    
+     
+       
+}
+
+.real{
+    text-decoration: overline;
+    text-shadow: 4px 4px 8px #000000;
+}
+
+.news{
+    text-decoration: overline;
+}
+
+h1{
+    margin-top: -2vh;
+    
+}
+
+
+
+
+.sidebarimg{
+    
+border:5px solid black;
+    height:25vh;
+    width:10vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.imgcontainer{
+    
+    display:flex;
+margin-top: 7vh;
+}
+
+.searchbar{
+    width:15vw;
+    height:3vw;
+    border-radius: 50px;
+    font-size:20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+.coolbutton{
+    display: inline-block;
+    border-radius: 50px;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+    
+    
+
+
+.coolbutton span{
+    cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+
+.coolbutton span:after {
+    content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.coolbutton:hover span {
+    padding-right: 25px;
+}
+
+.coolbutton:hover span:after {
+    opacity: 1;
+  right: 0;
+}
+
+.linkimgbox{
+    display:flex;
+    flex-direction: row;
+ 
+ 
+ border-radius: 25px;
+ 
+ width:25vw;
+ height:30vh;
+
+    
+    
+}
+
+.linkimg{
+    
+    border-radius: 25px 0px 0px 25px;
+    width:100%;
+    height: 100%;
+}
+
+.paragraph{
+    font-size: 16px;
+}
+
+.paragraphsource{
+    font-size: 14px;
+    text-shadow: none;
+}
+
+.linkshit{
+    font-size:12px;
+    text-shadow: none;
+}
+
+
+
+.listbox{
+    list-style-type: none;
+    margin:10.5vh 5vw 10.5vh 0vw;
+    border-radius: 25px;
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+    box-shadow: 5px 5px 5px black;
+    background-color: white;
+    }
+
+.textbox{
+     display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    text-shadow: 1px 1px 1px grey;
+
+   width:50vw;
+   justify-content: space-evenly;
+   font-family: 'Abril Fatface', cursive;
+   font-size: 26px; 
+}
+
+
+
+.outputcontainer{
+    display:flex;
+    flex-direction: column;
+   align-content:space-between; 
+    margin-left: 18vw;
+    
+   height:auto;
+  }
+
+
+  
+  
+ 
+  
+  
+
+
